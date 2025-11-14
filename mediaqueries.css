@@ -1,0 +1,28 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+} 
+
+
+
+
+/* Responsive icons per view */
+@media (max-width: 1199px) {
+  .tech-carousel .track { --icons-per-view: 6; }
+}
+
+@media (max-width: 991px) {
+  .tech-carousel .track { --icons-per-view: 5; }
+}
+
+@media (max-width: 767px) {
+  .tech-carousel .track { --icons-per-view: 4; }
+}
+
+@media (max-width: 575px) {
+  .tech-carousel .track { --icons-per-view: 3; }
+}
